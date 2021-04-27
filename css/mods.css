@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* -----tags----- */
+body {
+    padding: 5px 100px 5px 100px;
+}
+
+
+/* -----classes----- */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.content {
+    background-size:cover;
+    background-position: center;
+    width: 250px;
+    height: 360px;
+}
+
+.description {
+    padding-top: 5px;
+    width: 250px;
+    height: 60px;
+    
+}
+
+.brand {
+    font-style: italic;
+}
+
+.price {
+    height: 20px;
+}
+
+.sale {
+    color: crimson;
+}
+
+.article1, .article2, .article3, .article4, .article5, .article6 {
+    display: inline-block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+} 
+
+.article1, .article2, .article4, .article5 {
+    margin-right: 10px;
+}
+
+/* -----id's----- */
+
+#content1 {
+    background-image: url(1.webp);
+}
+
+#content1:hover {
+    background-image: url(1-hover.webp);
+}
+
+#content2 {
+    background-image: url(2.webp);
+}
+
+#content2:hover {
+    background-image: url(2-hover.webp);
+}
+
+#content3 {
+    background-image: url(3.webp);
+}
+
+#content3:hover {
+    background-image: url(3-hover.webp);
+}
+
+#content4 {
+    background-image: url(4.webp);
+}
+
+#content4:hover {
+    background-image: url(4-hover.webp);
+}
+
+#content5 {
+    background-image: url(5.webp);
+}
+
+#content5:hover {
+    background-image: url(5-hover.webp);
+}
+
+#content6 {
+    background-image: url(6.webp);
+}
+
+#content6:hover {
+    background-image: url(6-hover.webp);
+}
