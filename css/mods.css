@@ -15,11 +15,49 @@ body {
     margin: 0 auto;
 }
 
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 .content {
     background-size:cover;
     background-position: center;
     width: 250px;
     height: 360px;
+}
+
+.sale-flag {
+    width: 35px;
+    height: 20px;
+    background-color: crimson;
+    color: white;
+    position: relative;
+    top: 330px;
+    bottom: 5px;
+    float: left;
+}
+
+.echo-flag {
+    background-color: rgb(63, 138, 67);
+    color: white;
+    width: 95px;
+    height: 20px;
+    position: relative;
+    top: 330px;
+    bottom: 5px;
+    left: 5px;
+    float: left;
+}
+
+.fav {
+    width: 30px;
+    height: 30px;
+    float: right;
+    color: rgb(255, 0, 0);
+    font-size: 30px;
+
 }
 
 .description {
@@ -42,7 +80,7 @@ body {
 }
 
 .article1, .article2, .article3, .article4, .article5, .article6 {
-    display: inline-block;
+    float:left;
     padding-top: 10px;
     padding-bottom: 10px;
 } 
